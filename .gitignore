@@ -1,0 +1,33 @@
+# Cargo
+/target/
+**/target/
+
+# Executables
+*.exe
+*.dll
+*.so
+*.dylib
+
+# Temporary / backup files
+*.tmp
+*.temp
+*.swp
+*.swo
+*.bak
+
+# Rust/Cargo specific
+Cargo.lock
+
+# IDE / Editor
+.vscode/
+.idea/
+*.iml
+*.sublime-workspace
+*.sublime-project
+
+# OS generated
+.DS_Store
+Thumbs.db
+
+# dotenv
+.env
